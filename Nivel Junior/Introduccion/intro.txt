@@ -1,0 +1,158 @@
+//Tipos de Datos
+
+// String (Cadena de texto)
+
+string = "cadena de texto"
+
+//Number (Numero)
+
+number = 19
+
+//Booleano (True o false)
+
+booleano = false
+
+//Tipos de Variables (var, let, const)
+
+*let
+let numero = 15
+puede ser modificada, pero nos limita el alcanze de la variable en el bloque en el que la utilizamos
+se usa para los if y es la que mas vamos a utilizar
+
+*var
+var numero = 15
+puede ser modificada, pero se utiliza mas let  
+
+*const
+const nombre = "tomas"
+las variables constantes no pueden cambiar su valor, solo se define una vez y no se cambia
+
+//Casos especiales de Datos
+
+* Undefinded (dato no definido)
+
+* Null (dato vacio)
+
+* NaN (Not a number)
+
+//Prompt
+
+me almacea un valor que pone el usuario y lo puedo guardar en una variable, es una funcion
+
+//Operadores de asignacion:
+
+1) Asignación (=)
+
+Asigna el valor del lado derecho al operando del lado izquierdo.
+
+let x = 5; // x ahora es 5
+
+2) Asignación de adición (+=)
+
+Suma el valor del lado derecho al operando del lado izquierdo y asigna el resultado 
+al operando del lado izquierdo.
+
+let x = 5;
+x += 3; // x ahora es 8
+
+3) Asignación de sustracción (-=)
+
+Resta el valor del lado derecho al operando del lado izquierdo y asigna el resultado 
+al operando del lado izquierdo.
+
+let x = 5;
+x -= 3; // x ahora es 2
+
+4) Asignación de multiplicación (*=)
+
+Multiplica el valor del lado derecho al operando del lado izquierdo y asigna el resultado 
+al operando del lado izquierdo.
+
+let x = 5;
+x *= 3; // x ahora es 15
+
+5) Asignación de división (/=)
+
+Divide el valor del lado derecho al operando del lado izquierdo y asigna el resultado 
+al operando del lado izquierdo.
+
+let x = 15;
+x /= 3; // x ahora es 5
+
+6) Asignación de residuo (%=)
+
+Calcula el residuo de la división del valor del lado izquierdo por el valor del lado derecho y asigna el resultado 
+al operando del lado izquierdo.
+
+let x = 5;
+x %= 2; // x ahora es 1
+
+7) Asignación de exponenciación (**=)
+
+Eleva el valor del lado izquierdo a la potencia del valor del lado derecho y asigna el resultado 
+al operando del lado izquierdo.
+
+let x = 5;
+x **= 2; // x ahora es 25
+
+//Operadores Aritmeticos de incremento y decremento
+
+1) Incremento (++)
+
+Incrementa en uno el valor del operando.
+
+Forma Postfija: Devuelve el valor antes de incrementarlo.
+let a = 5;
+let result = a++; // result es 5, a ahora es 6
+
+Forma Prefija: Incrementa el valor y luego lo devuelve.
+let a = 5;
+let result = ++a; // result es 6, a ahora es 6
+
+2) Decremento (--)
+
+Decrementa en uno el valor del operando.
+
+Forma Postfija: Devuelve el valor antes de decrementarlo.
+let a = 5;
+let result = a--; // result es 5, a ahora es 4
+
+Forma Prefija: Decrementa el valor y luego lo devuelve.
+let a = 5;
+let result = --a; // result es 4, a ahora es 4
+
+
+//Concatenacion:  se refiere al proceso de unir dos o más 
+cadenas de texto (strings) en una sola cadena. La concatenación de cadenas se realiza 
+comúnmente utilizando el operador de adición (+). Aquí te explico cómo funciona y 
+te muestro algunos ejemplos:
+
+Uso del Operador de Adición (+)
+
+let str1 = "Hola";
+let str2 = "Mundo";
+let result = str1 + " " + str2; // result es "Hola Mundo"
+console.log(result);
+En el ejemplo anterior, se concatenan las cadenas str1 y str2 con un espacio en medio.
+
+Uso del Operador de Asignación con Adición (+=)
+
+let greeting = "Hola";
+greeting += " Mundo"; // greeting ahora es "Hola Mundo"
+console.log(greeting);
+
+
+Uso de las Plantillas de Literales (Template Literals) (Backticks)
+
+Otra forma muy útil y moderna de concatenar cadenas es utilizando las plantillas 
+de literales (template literals) con las comillas invertidas (`). 
+Esto permite la interpolación de variables y expresiones dentro de una cadena:
+
+let name = "Juan";
+let age = 30;
+let message = `Hola, mi nombre es ${name} y tengo ${age} años.`;
+console.log(message); // "Hola, mi nombre es Juan y tengo 30 años."
+
+
+
+
